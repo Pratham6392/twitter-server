@@ -1,0 +1,20 @@
+{
+  "name": "twitter-server",
+  "version": "1.0.0",
+  "description": "twitter server",
+  "main": "index.js",
+  "scripts": {
+    "dev": " tsc-watch --onSuccess \"npm start\"",
+    "build": "tsc -p .",
+    "start": "node build/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@prisma/client": "^5.16.2",
+    "graphql": "^16.9.0",
+    "prisma": "^5.16.2"
+  }
+}
